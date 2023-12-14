@@ -36,9 +36,9 @@ function getUniqueValuesFromColumn() {
 
     });
 
-    for(i in unique_col_values_dict) {
-        alert("Column index : " + i + " has Unique values : \n" + unique_col_values_dict[i]);
-    }
+//    for(i in unique_col_values_dict) {
+//        alert("Column index : " + i + " has Unique values : \n" + unique_col_values_dict[i]);
+//    }
 
     updateSelectOptions(unique_col_values_dict)
 
